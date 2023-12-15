@@ -1,0 +1,293 @@
+body {
+    margin: 0;
+    background-image: url(./images/chicken-wp.png);
+    background-repeat: repeat;
+    background-size: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+}
+
+h1 {
+    font-family: 'Days One', sans-serif;
+    font-size: 2.5rem;
+    color: goldenrod;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Mina', sans-serif;
+    font-size: 2rem;
+    text-align: center;
+}
+
+h3 {
+    font-family: 'Mina', sans-serif;
+    text-align: left;
+    font-size: 1.8rem;
+}
+
+h4 {
+    font-size: 1.5rem;
+    font-family: 'Dosis', sans-serif;
+    font-style: italic;
+}
+
+hr {
+    border: dotted goldenrod 10px;
+    border-bottom: none;
+    width: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+ul {
+    padding: 0;
+}
+
+p {
+    font-family: 'Dosis', sans-serif;
+    font-size: 2rem;
+}
+
+
+.container-outer {
+    width: 70vw;
+    background-color: #020b18;
+    margin: 10% 0 5% 0;
+    border-radius: 15px;
+}
+
+.container-inner {
+    display: flex;
+    flex-direction: column;
+    padding: 10%;
+    padding-bottom: 5%;
+}
+
+.title {
+    text-align: center;
+}
+
+.container-intro {
+    display: flex;
+    align-items: center;
+}
+
+
+.container-intro p {
+    font-size: 2.5rem;
+    font-family: 'Dosis', sans-serif;
+}
+
+li>ul>li {
+    margin-left: 5%;
+}
+
+li>ul>li>p {
+    font-size: 1.8rem;
+}
+
+footer {
+    margin: 0 0 2% 0;
+    font-family: 'Kanit', sans-serif;
+    color: #020b18;
+    font-size: 1.2rem;
+}
+
+.links {
+    display: flex;
+    justify-content: space-around;
+}
+
+a {
+    text-decoration: none;
+    border-bottom: 1px dashed #ffffff;
+    color: #ffffff;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: goldenrod;
+}
+
+a>p {
+    margin-bottom: 0;
+}
+
+.photo-container {
+    max-width: 30%;
+    height: auto;
+    margin: 0 auto;
+    background-color: goldenrod;
+    padding: 1%;
+
+}
+
+.photo-container img {
+    max-width: 100%;
+
+}
+
+.call-me {
+    max-width: 30%;
+    height: auto;
+    padding: 1%;
+    float: right;
+    margin: 0;
+
+}
+
+.call-me img {
+    max-width: 100%;
+
+
+}
+
+.details {
+    text-align: left;
+    align-self: center;
+    font-family: 'Dosis', sans-serif;
+    font-size: 2rem;
+}
+
+.details ul {
+    list-style: none;
+}
+
+.contact-me {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.highlight {
+    color: goldenrod;
+}
+
+.container-outer-contact {
+    width: 70vw;
+    background-color: #020b18;
+    margin: 10% 0 5% 0;
+    border-radius: 15px;
+}
+
+@media screen and (max-width:576px) {
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    .container-outer {
+        width: 95vw;
+    }
+
+    .photo-container {
+        max-width: 80%;
+        height: auto;
+        margin: 0 auto;
+        background-color: goldenrod;
+        padding: 1%;
+
+
+
+    }
+
+    footer {
+        text-align: center;
+        font-size: .9rem;
+    }
+
+    a {
+        text-decoration: underline;
+        color: #ffffff;
+        border: none;
+    }
+
+    a:hover {
+        color: goldenrod;
+    }
+
+    .container-outer-contact {
+        width: 95vw;
+        background-color: #020b18;
+        margin: 10% 0 5% 0;
+        border-radius: 15px;
+        height: 90vh;
+    }
+
+    .contact-me {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .details {
+        max-width: 100%;
+        font-size: 1.6rem;
+        order: 1;
+        text-align: center;
+    }
+
+    .call-me {
+        max-width: 50%;
+    }
+
+
+
+}
+
+@media screen and (min-width:577px) and (max-width:992px) {
+    .container-outer {
+        width: 90vw;
+    }
+
+    .photo-container {
+        max-width: 50%;
+        height: auto;
+        margin: 0 auto;
+        background-color: goldenrod;
+        padding: 1%;
+
+    }
+
+    .call-me {
+        max-width: 100%;
+
+    }
+
+    footer {
+        text-align: center;
+    }
+
+    .contact-me {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .details {
+        max-width: 100%;
+        font-size: 1.6rem;
+        order: 1;
+        text-align: center;
+    }
+
+    .call-me {
+        max-width: 50%;
+    }
+   
+    .container-outer-contact {
+        width: 90vw;
+        background-color: #020b18;
+        margin: 10% 0 5% 0;
+        border-radius: 15px;
+    }
+
+.details > li > p {
+    font-size: 1.5rem;
+}
+
+}
